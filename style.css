@@ -142,4 +142,8 @@ textarea {
         width: 100%;
         height: 40px;
     }
+
+    .form_error{
+        padding-left: 0%;
+    }
 }
