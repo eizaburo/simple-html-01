@@ -66,13 +66,10 @@ body {
 
 /* Contact */
 
-/* .contact_form{
-    text-align: center;
-} */
 
 .form_group {
     margin-top: 30px;
-    width: 100%;
+    width: 100%; /* 無くてもよい? */
     display: flex;
     align-items: center;
     flex-wrap: wrap; /* レスポンシブ時に使う */
@@ -85,9 +82,9 @@ body {
 
 .form_group input,
 textarea {
+    width: 60%;
     border: 1px solid #aaa;
     border-radius: 5px;
-    width: 60%;
     padding: 5px;
     /* font-size: 18px; */
 }
